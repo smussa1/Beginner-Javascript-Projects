@@ -1,0 +1,19 @@
+// declaring kelvin
+let kelvin = 800; 
+
+// declaring celsius
+let celsius = kelvin - 273;
+
+
+// declaring fahrenheit
+let fahrenheit = celsius * (9/5) + 32 
+
+// rounding fahrenheit
+let Rfahrenheit = Math.floor(fahrenheit) 
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`)
+
+//calculate newtons
+let newton = celsius * (33/100)
+let Newton = Math.floor(newton)
+
+console.log(`The temperature is ${Newton} Newtons`)
